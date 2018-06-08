@@ -22,4 +22,7 @@ O NodeMCU recebe o comando e aciona a porta D5, onde está conectado um módulo 
 
 ![](montagem.jpeg)
 
+## Esquema
+
+![](Fritzing.jpeg)
 
