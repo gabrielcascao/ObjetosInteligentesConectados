@@ -11,6 +11,7 @@ O esquema abaixo demonstra as diferentes camadas do sistema, isso incluí, uma c
 Na rede local, a Alexa reconhece o comando de voz, e envia para o servidor da Amazon.
 A Amazon retorna para o seridor local, que roda em um RaspberryPi o comando interpretado.
 O RaspberryPI roda um sistema operacional chamado hassio ( http://www.home-assistant.io ) que interpreta o comando e envia através do protocolo MQTT para o NodeMCU que está conectado à rede local.
+Será necessário configurar os módulos MQTT Broker e Homebridge no sistema hassio, como indicado no site: https://www.home-assistant.io/components/mqtt/
 O NodeMCU recebe o comando e aciona a porta D5, onde está conectado um módulo rele que derve de interruptor para a lâmpada (ou outro dispositivo desejado).
 
 ## Diagrama de implantação
