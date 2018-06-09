@@ -21,9 +21,9 @@ O NodeMCU recebe o comando e aciona a porta D5, onde está conectado um módulo 
 
 ## Montagem do dispositivo
 
-![](montagem.jpeg)
+![](/hardware/montagem.jpeg)
 
 ## Esquema
 
-![](Fritzing.jpeg)
+![](/hardware/esquema.png)
 
