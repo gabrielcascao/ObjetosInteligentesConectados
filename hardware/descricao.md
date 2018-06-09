@@ -1,16 +1,19 @@
 # Descrição de hardware
 
 
- - RaspBerry Pi
-    Roda o servidor local, com o Home Assistant configurado para emular um acessório certificado (Phillips Hue)
-
-- Node MCU
-    Conecta por MQTT com o Raspberry Pi e executa a ação determinada
+ * RaspBerry Pi
+  -  Roda o servidor local, com o Home Assistant configurado para emular um acessório certificado (Phillips Hue)
+    ![](/hardware/RaspberryPI.jpeg)
     
-- Módulo Rele
-    Funciona como interruptor recebendo o comando do Node MCU e ligando/desligando a lâmpada
+* Node MCU
+    - Conecta por MQTT com o Raspberry Pi e executa a ação determinada (junto com o Rele na imagem abaixo)
     
-- Amazon Alexa
-    Recebe e interpreta os comandos de voz do usuário
+* Módulo Rele
+    - Funciona como interruptor recebendo o comando do Node MCU e ligando/desligando a lâmpada
+    ![](/hardware/NodeMCU.jpeg)
     
-- Um dispositivo ligado ao Rele para ligar e desligar de acordo com o comando
+* Amazon Alexa
+    - Recebe e interpreta os comandos de voz do usuário
+    ![](/hardware/Alexa.jpeg)
+    
+* Um dispositivo ligado ao Rele para ligar e desligar de acordo com o comando
